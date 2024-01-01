@@ -1,0 +1,59 @@
+Bit Bucket : git clone git@bitbucket.org:personalsloop/crm-app.git
+
+Github : https://github.com/BBharadhwaj/crm-app.git
+
+
+
+
+
+
+
+
+
+mkdir -p project/assets/css \
+  && mkdir -p project/assets/js \
+  && mkdir -p project/assets/fonts \
+  && mkdir -p project/configs \
+  && mkdir -p project/includes \
+  && mkdir -p project/libraries/jquery \
+  && mkdir -p project/log \
+  && mkdir -p project/script \
+  && mkdir -p project/templates \
+  && touch project/assets/css/app.css \
+  && touch project/assets/js/app.js
+
+
+mkdir -p app/assets/css \
+  && mkdir -p app/assets/js \
+  && mkdir -p app/assets/fonts \
+  && mkdir -p app/configs \
+  && mkdir -p app/includes \
+  && mkdir -p app/libraries/jquery \
+  && mkdir -p app/log \
+  && mkdir -p app/script \
+  && mkdir -p app/templates \
+  && touch app/assets/css/app.css \
+  && touch app/assets/js/app.js
+
+
+mkdir -p app/assets/css \
+  && mkdir -p app/assets/js \
+  && mkdir -p app/assets/fonts \
+  && mkdir -p app/configs/nginx \
+  && mkdir -p app/includes \
+  && mkdir -p app/libraries/jquery \
+  && mkdir -p app/log/nginx \
+  && mkdir -p app/script/test \
+  && mkdir -p app/templates \
+  && touch app/assets/css/app.css \
+  && touch app/assets/js/app.js \
+  && touch app/libraries/jquery/jquery.min.js \
+  && touch app/configs/nginx/main.conf \
+  && touch app/configs/app.conf \
+  && touch app/configs/redis.conf \
+  && touch app/log/nginx/access.log \
+  && touch app/log/nginx/error.log \
+  && touch app/script/test/main.py \
+  && touch app/templates/base.html \
+  && touch app/includes/database.py \
+  && touch app/init.py
