@@ -1,4 +1,3 @@
-
 ##
 # Lead feature functionalities
 ##
@@ -16,8 +15,9 @@ def update_lead():
 
 # Delete lead
 def delete_lead():
-	print "Deleted the Lead successfully."
+	print "Lead deleted successfully."
 
-# Access lead
-def access_lead():
-	print "Access the Lead."
+
+# View lead
+def view_lead():
+	print "View the Lead."
